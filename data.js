@@ -25,11 +25,11 @@ window.CA = {
 
   // STARTUP: every project. Image: images/projects/<slug>.jpg or set `image`.
   projects: [
-    { slug: 'bluebook', name: 'Bluebook', tagline: 'An educative online-platform', status: 'Pending', tags: [], link: '', image: 'images/projects/project-1.png' },
-    { slug: 'tic-bus', name: 'TiC Bus', tagline: 'Built for travel agencies.', status: 'Pending', tags: [], link: '', image: 'images/projects/project-2.png' },
+    { slug: 'bluebook', name: 'Bluebook', tagline: 'An educative online-platform', status: 'Pending', tags: [], link: 'https://github.com/Itz-Caseay/Bluebook_V0.2', image: 'images/projects/project-1.png' },
+    { slug: 'tic-bus', name: 'TiC Bus', tagline: 'Built for travel agencies.', status: 'Pending', tags: [], link: 'https://github.com/Itz-Caseay/TiC_Bus', image: 'images/projects/project-2.png' },
     { slug: 'caseay', name: 'Caseay', tagline: 'Artist website', status: 'Completed', tags: [], link: 'https://thatguapman.vercel.app', image: 'images/projects/project-3.png' },
-    { slug: 'edutrack', name: 'Edutrack', tagline: 'A platform to track teachers\' time rate in school.', status: 'Pending', tags: [], link: '', image: 'images/projects/project-4.png' },
-    { slug: 'vora', name: 'VORA', tagline: 'A cab reserver, similar to TiC Bus.', status: '', tags: [], link: '', image: '' }
+    { slug: 'edutrack', name: 'Edutrack', tagline: 'A platform to track teachers\' time rate in school.', status: 'Pending', tags: [], link: 'https://github.com/Itz-Caseay/EduTrack_Plus', image: 'images/projects/project-4.png' },
+    { slug: 'vora', name: 'VORA', tagline: 'A cab reserver, similar to TiC Bus.', status: '', tags: [], link: 'https://github.com/Itz-Caseay/vora-smart-mobility', image: '' }
   ],
 
   // LABEL: every signed artist. Clicking a card opens artist.html with their songs.
