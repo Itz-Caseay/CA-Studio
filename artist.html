@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artist | CA_Studio</title>
+  <meta name="description" content="An artist signed to CA_Studio and every song released on the label.">
+  <meta name="theme-color" content="#12131A">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+</head>
+<body data-page="label">
+
+<header class="site-head">
+  <nav class="nav" aria-label="Main">
+    <a class="logo" href="index.html" aria-label="CA_Studio, home"><span class="logo-text">CA<span class="us">_</span>Studio</span></a>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="startup.html">Startup</a></li>
+      <li><a href="label.html" aria-current="page">Label</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section class="hero hero-short on-lime">
+    <div class="wrap hero-inner">
+      <a class="back" href="label.html"><svg viewBox="0 0 48 24" aria-hidden="true"><path d="M0 12h44M34 2l10 10-10 10" fill="none" stroke="currentColor" stroke-width="3"/></svg>The label</a>
+      <h1><span class="line"><span style="--i:0" id="aName">Artist</span></span></h1>
+      <p class="lede" id="aMeta"></p>
+    </div>
+    <div class="wave" aria-hidden="true"></div>
+  </section>
+
+  <section class="songs paper" aria-labelledby="songsTitle">
+    <div class="wrap">
+      <div class="artist-layout">
+        <div class="artist-side" id="aSide">
+          <div class="media r-45" id="aPortrait"></div>
+          <a class="btn btn-ink" id="aSite" href="#" target="_blank" rel="noopener" hidden>Visit website</a>
+        </div>
+        <div>
+          <div class="sec-head" id="songsHead">
+            <h2 id="songsTitle">Songs</h2>
+            <p id="songsCount"></p>
+          </div>
+          <ol class="tracks" id="tracks"></ol>
+          <p class="caption">Bars compare streams between songs.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <h2>Designed by vision. Driven by creation.</h2>
+    <a class="btn btn-ink" data-mail href="#" hidden></a>
+    <div class="foot-row">
+      <nav aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="startup.html">Startup</a>
+        <a href="label.html">Label</a>
+      </nav>
+      <div class="socials" id="socials"></div>
+      <p>&copy; <span id="year">2026</span> CA_Studio</p>
+    </div>
+  </div>
+</footer>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
