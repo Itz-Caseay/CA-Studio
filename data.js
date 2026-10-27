@@ -4,7 +4,7 @@
 */
 window.CA = {
   // Shows in the footer and on the label page ("Send your demo")
-  email: '',
+  email: 'caseay54@gmail.com',
 
   // Add a link to show it in the footer
   socials: { Instagram: '', X: '', YouTube: 'https://www.youtube.com/@Caseay-c8g', LinkedIn: '' },
