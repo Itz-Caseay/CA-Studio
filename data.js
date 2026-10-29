@@ -7,7 +7,7 @@ window.CA = {
   email: 'caseay54@gmail.com',
 
   // Add a link to show it in the footer
-  socials: { Instagram: '', X: '', YouTube: 'https://www.youtube.com/@Caseay-c8g', LinkedIn: '', Whatsapp: 'https://whatsapp.com/channel/0029VbACmGy4IBh5nZFrRG1C' },
+  socials: { Instagram: '', X: '', YouTube: 'https://www.youtube.com/channel/UCi8cMnPo4tpxt95YmYM5QPA', LinkedIn: '', Whatsapp: 'https://whatsapp.com/channel/0029VbACmGy4IBh5nZFrRG1C' },
 
   // HOME: team photos. Leave empty to auto-load images/team/team-1.jpg, team-2.jpg ...
   // Or list them: [{ image: 'images/team/ada.jpg', name: 'Ada', role: 'Engineer' }]
