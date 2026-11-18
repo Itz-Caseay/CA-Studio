@@ -41,7 +41,7 @@ window.CA = {
       slug: 'caseay', name: 'Caseay', genre: '', link: 'https://thatguapman.vercel.app', image: 'images/artists/artist-1.jpg',
       songs: [
         { title: 'Chase Him', streams: '1.4K+' },
-        { title: '#RAM', streams: '450+' },
+        { title: '#RAM', streams: '500+' },
         { title: 'Bold', note: 'feat. Tonni SS', status: 'Coming soon' }
       ]
     }
